@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.workflow == 'publish' || !contains(github.event.head_commit.message, '[skip build]') }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
       - run: npm ci
       - run: npm run build
       - run: |
@@ -17,8 +17,3 @@ jobs:
           npm t
       - run: npm run lint
       - run: npm run type-coverage
-      - name: persist to workspace
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: dist/*
