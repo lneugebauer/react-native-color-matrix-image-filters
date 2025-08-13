@@ -1,11 +1,11 @@
 # react-native-color-matrix-image-filters
 
-[![npm version](https://badge.fury.io/js/react-native-color-matrix-image-filters.svg?t=1495378566925)](https://badge.fury.io/js/react-native-color-matrix-image-filters)
-[![build](https://github.com/iyegoroff/react-native-color-matrix-image-filters/workflows/build/badge.svg)](https://github.com/iyegoroff/react-native-color-matrix-image-filters/actions/workflows/build.yml)
-[![publish](https://github.com/iyegoroff/react-native-color-matrix-image-filters/workflows/publish/badge.svg)](https://github.com/iyegoroff/react-native-color-matrix-image-filters/actions/workflows/publish.yml)
-[![Type Coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fiyegoroff%2Freact-native-color-matrix-image-filters%2Fmaster%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
+[![npm version](https://badge.fury.io/gh/lneugebauer%2Freact-native-color-matrix-image-filters.svg)](https://badge.fury.io/gh/lneugebauer%2Freact-native-color-matrix-image-filters.svg)
+[![build](https://github.com/lneugebauer/react-native-color-matrix-image-filters/workflows/build/badge.svg)](https://github.com/lneugebauer/react-native-color-matrix-image-filters/actions/workflows/build.yml)
+[![publish](https://github.com/lneugebauer/react-native-color-matrix-image-filters/workflows/publish/badge.svg)](https://github.com/lneugebauer/react-native-color-matrix-image-filters/actions/workflows/publish.yml)
+[![Type Coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flneugebauer%2Freact-native-color-matrix-image-filters%2Fmaster%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/react-native-color-matrix-image-filters)
-[![npm](https://img.shields.io/npm/l/express.svg?t=1495378566925)](https://www.npmjs.com/package/react-native-color-matrix-image-filters)
+[![GitHub License](https://img.shields.io/github/license/lneugebauer/react-native-color-matrix-image-filters)](https://github.com/lneugebauer/react-native-color-matrix-image-filters)
 
 Various color matrix based image filters for iOS & Android.
 
@@ -45,7 +45,7 @@ RCT_NEW_ARCH_ENABLED=1 npx pod-install
 ## Scope
 
 This module is meant to be used for simple stuff, like "grayscaling inactive user avatar" etc. Check
-[react-native-image-filter-kit](https://github.com/iyegoroff/react-native-image-filter-kit) if
+[react-native-image-filter-kit](https://github.com/lneugebauer/react-native-image-filter-kit) if
 you need some advanced features like image blending/composing, extracting filtering results to file system
 and ability to create custom filters.
 
@@ -85,11 +85,11 @@ const ColorMatrixImage = (imageProps) => (
 
 |                                                               Original                                                               |                                                             Grayscaled                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/iyegoroff/react-native-color-matrix-image-filters/raw/master/img/parrot.png" align="left" height="200"> | <img src="https://github.com/iyegoroff/react-native-color-matrix-image-filters/raw/master/img/gray.png" align="right" height="200"> |
+| <img src="https://github.com/lneugebauer/react-native-color-matrix-image-filters/raw/master/img/parrot.png" align="left" height="200"> | <img src="https://github.com/lneugebauer/react-native-color-matrix-image-filters/raw/master/img/gray.png" align="right" height="200"> |
 
 |                                                            CombinedFilters                                                             |                                                                 ColorMatrix                                                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/iyegoroff/react-native-color-matrix-image-filters/raw/master/img/combined.png" align="left" height="200"> | <img src="https://github.com/iyegoroff/react-native-color-matrix-image-filters/raw/master/img/color-matrix.png" align="right" height="200"> |
+| <img src="https://github.com/lneugebauer/react-native-color-matrix-image-filters/raw/master/img/combined.png" align="left" height="200"> | <img src="https://github.com/lneugebauer/react-native-color-matrix-image-filters/raw/master/img/color-matrix.png" align="right" height="200"> |
 
 ## Usage
 
@@ -155,7 +155,7 @@ results can be combined with `concatColorMatrices` function.
 ## Misc
 
 - This library was tested only with standard `Image` component, but in theory it should work with
-  any image that conforms to [CMIFImageView](https://github.com/iyegoroff/react-native-color-matrix-image-filters/blob/master/ios/CMIFImageView.h) protocol or is based on Android `ImageView` class
+  any image that conforms to [CMIFImageView](https://github.com/lneugebauer/react-native-color-matrix-image-filters/blob/master/ios/CMIFImageView.h) protocol or is based on Android `ImageView` class
 - Installing `react-native-fast-image` is <strong>not required</strong> - this module doesn't depend on it
 
 ## Credits
