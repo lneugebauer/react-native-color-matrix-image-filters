@@ -9,7 +9,10 @@
   "main": "dist/index.js",
   "react-native": "src/index.ts",
   "types": "dist/index.d.ts",
-  "name": "react-native-color-matrix-image-filters",
+  "name": "@lneugebauer/react-native-color-matrix-image-filters",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "lneugebauer",
   "bugs": {
     "url": "https://github.com/lneugebauer/react-native-color-matrix-image-filters/issues"
@@ -17,7 +20,7 @@
   "homepage": "https://github.com/lneugebauer/react-native-color-matrix-image-filters#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lneugebauer/react-native-color-matrix-image-filters.git"
+    "url": "git+https://github.com/lneugebauer/react-native-color-matrix-image-filters.git"
   },
   "version": "7.0.3",
   "peerDependencies": {
